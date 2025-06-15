@@ -1,0 +1,89 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - PetSS</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/PetCare.styles.css" asp-append-version="true" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+        }
+        .center {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="row">
+        <div class="col-3">
+            <div class="d-flex flex-column flex-shrink-0 p-3 text-dark shadow bg-light vh-100" style="width: 280px;">
+                <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+                    <h1 class="fs-4">Hello, Admin</h1>
+                </a>
+                <hr />
+                <ul class="nav nav-pills flex-column mb-auto">
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area=" " asp-controller="Admin" asp-action="Index">Trang Chủ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area=" " asp-controller="DonHang" asp-action="Index">Đơn Hàng</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area=" " asp-controller="LichHen" asp-action="Index">Lịch Hẹn</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="DichVu" asp-action="Index">Dịch Vụ</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-dark" href="#" id="DropdownMenuSP" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Sản Phẩm
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="DropdownMenuSP">
+                            <li><a class="dropdown-item text-dark" asp-controller="SanPham" asp-action="Index">Quản lý sản phẩm</a></li>
+                            <li><a class="dropdown-item text-dark" asp-controller="LoaiSP" asp-action="Index">Quản lý loại</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="KhachHang" asp-action="Index">Khách Hàng</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Kho" asp-action="Index">Kho Hàng</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="NhanVien" asp-action="Index">Nhân Viên</a>
+                    </li>
+                </ul>
+                <hr class="mt-auto">
+                <ul class="nav nav-pills flex-column mb-3">
+                    <li class="nav-item">
+                        <a asp-controller="Account" asp-action="Logout" class="nav-link text-dark">
+                            Thoát
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="col-9">
+            <div class="container mt-3">
+                @RenderBody()
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

@@ -1,0 +1,116 @@
+﻿@model VMChitietLichHen
+@{
+    Layout = "Admin/_LayoutAdmin";
+}
+
+<h2 class="text-center">Đặt Lịch Hẹn</h2>
+
+<form method="post" enctype="multipart/form-data" asp-action="Edit">
+    <div class="row">
+        <div class="col-6">
+            <!-- Hidden fields -->
+            <input type="hidden" asp-for="id_nv" value="@ViewData["UserId"]" />
+
+            <div class="card bg-white border-dark rounded mb-3">
+                <div class="card-body col-12">
+                    <h3>Thông tin khách hàng</h3>
+                    <input type="hidden" asp-for="id_kh" />
+                    <div class="row mb-3">
+                        <label class="col col-form-label">Tên Khách Hàng:</label>
+                        <div class="col">
+                            <input class="form-control" asp-for="ten_kh" />
+                            <span asp-validation-for="ten_kh" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <label class="col col-form-label">Số điện thoại:</label>
+                        <div class="col">
+                            <input class="form-control" asp-for="sdt_kh" />
+                            <span asp-validation-for="sdt_kh" class="text-danger"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Thông Tin Thú Cưng -->
+            <div class="card bg-white border-dark rounded mb-3">
+                <div class="card-body col-12">
+                    <h3>Thông tin thú cưng</h3>
+                    <input type="hidden" asp-for="id_tc" />
+                    <div class="row mb-3">
+                        <label class="col col-form-label">Tên Thú Cưng</label>
+                        <div class="col">
+                            <input class="form-control" asp-for="ten_tc" readonly />
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <label class="col col-form-label">Giống Thú Cưng</label>
+                        <div class="col">
+                            <input class="form-control" asp-for="giong_tc" readonly />
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <label class="col col-form-label">Cân Nặng</label>
+                        <div class="col">
+                            <input class="form-control" asp-for="can_nang" readonly />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Thông tin lịch hẹn -->
+        <div class="col-6">
+            <div class="card bg-white border-dark rounded mb-3">
+                <div class="card-body col-12">
+                    <h3>Thông tin Lịch Hẹn</h3>
+                    <input type="hidden" asp-for="id_nv" />
+                    <div class="row mb-3">
+                        <label class="col col-form-label">Nhân viên phụ trách</label>
+                        <div class="col">
+                            <input class="form-control" type="" asp-for="ten_nv" readonly />
+                            <span asp-validation-for="ten_nv" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <label class="col col-form-label">Dịch Vụ</label>
+                        <div class="col">
+                            <select asp-for="id_dichvu" class="form-control" asp-items="@(new SelectList(ViewBag.DichVuOption, "id_dichvu", "ten_dichvu"))">
+                                <option disabled value="">-- Chọn Dịch Vụ --</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <label class="col col-form-label">Trạng thái</label>
+                        <div class="col">
+                            <select class="form-select" id="trangThaiSelect" name="trang_thai" required>
+                                <option value="" disabled>-- Chọn Trạng Thái --</option>
+                                @if (ViewBag.TrangThaiList != null)
+                                {
+                                    foreach (var status in ViewBag.TrangThaiList as List<string>)
+                                    {
+                                        <option value="@status">@status</option>
+                                    }
+                                }
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <label class="col col-form-label">Ngày Hẹn</label>
+                        <div class="col">
+                            <input class="form-control" type="datetime-local" asp-for="ngay_hen" />
+                            <span asp-validation-for="ngay_hen" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <label class="col col-form-label">Ghi chú</label>
+                        <div class="col">
+                            <textarea class="form-control" rows="5" asp-for="ghi_chu"></textarea>
+                            <span asp-validation-for="ghi_chu" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Lưu</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>

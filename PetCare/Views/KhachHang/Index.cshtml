@@ -1,0 +1,62 @@
+﻿@model List<PetCare.Models.Khachhang>
+@{
+    Layout = "Admin/_LayoutAdmin";
+}
+
+<h2 class="text-center mb-4">Danh Sách Khách Hàng</h2>
+
+<!-- Search Form -->
+<form method="get" asp-action="Index" class="row mb-4">
+    <div class="col-md-3">
+        <input type="text" class="form-control" name="ten_kh" placeholder="Tên Khách Hàng" value="" />
+    </div>
+    <div class="col-md-3">
+        <input type="text" class="form-control" name="sdt_kh" placeholder="Số Điện Thoại" value="" />
+    </div>
+    <div class="col-md-3">
+        <input type="text" class="form-control" name="diachi_kh" placeholder="Địa Chỉ" value="" />
+    </div>
+    <div class="col-md-3">
+        <select class="form-control" asp-items="ViewBag.SortOptions" name="sortBy"></select>
+    </div>
+    <div class="col-md-3 mt-3">
+        <button type="submit" class="btn btn-primary w-100">Tìm Kiếm</button>
+    </div>
+</form>
+
+<a class="btn btn-primary mb-3" asp-controller="KhachHang" asp-action="Create">Thêm Khách Hàng</a>
+
+<!-- Table to Display Khách Hàng -->
+<table class="table table-bordered table-hover">
+    <thead class="table-dark">
+        <tr>
+            <th>ID</th>
+            <th>Tên</th>
+            <th>Số Điện Thoại</th>
+            <th>Địa Chỉ</th>
+            <th>Thao Tác</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var kh in Model)
+        {
+            <tr>
+                <td>@kh.id_kh</td>
+                <td>
+                    <a class="text-dark" asp-action="Detail" asp-route-id="@kh.id_kh">@kh.ten_kh</a>
+                </td>
+                <td>@kh.sdt_kh</td>
+                <td>@kh.diachi_kh</td>
+                <td>
+                    <a class="btn btn-primary btn-sm" asp-controller="KhachHang" asp-action="Edit" asp-route-id="@kh.id_kh">Sửa</a>
+                    <form asp-controller="KhachHang" asp-action="Delete" method="post" style="display:inline;">
+                        <input type="hidden" name="id" value="@kh.id_kh" />
+                        <button type="submit" class="btn btn-danger btn-sm">Xóa</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+

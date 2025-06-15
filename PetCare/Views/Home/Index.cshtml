@@ -1,0 +1,76 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+    ViewData["BusinessName"] = "Pet Spa & Shop";
+}
+<head>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet" />
+</head>
+
+
+<main class="">
+    <!-- Appointment -->
+    <section id="hero" class="mt-3 mb-5 section-width d-flex">
+        <div class="row mx-auto center">
+            <img src="~/assets/thumbnails/dog-and-cat-together-cute-pets-isolated-banner-with-copy-space-generative-ai-photo.jpg" alt="Pet Spa" class="img-fluid rounded col" />
+            <div class="col">
+                <h2>Cho thú cưng bạn 1 buổi nghỉ dưỡng</h2>
+                <a class="btn btn-primary text-center" asp-controller="Appointments" asp-action="Information">Đặt Lịch Hẹn</a>
+            </div>
+        </div>
+    </section>
+    <hr />
+    <!-- Service -->
+    <section id="serivces" class="section-width mt-2 mb-3">
+        <div class="mx-auto text-center">
+            <h2 class="mb-2">Dịch Vụ Của Chúng Tôi</h2>
+            <table class="mt-3 center">
+                <tr>
+                    <td>
+                        <img src="/assets/images/DV_Cat.jpg" style="width: 480px; height: 160px;" alt="Service 1" class="img-fluid rounded" />
+                    </td>
+                    <td>
+                        <img src="/assets/images/DV_Tam.jpg" style="width: 480px; height: 160px;" alt="Service 2" class="img-fluid rounded" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="/assets/images/DV_Nhuom.jpg" style="width: 480px; height: 160px;" alt="Service 3" class="img-fluid rounded" />
+                    </td>
+                    <td>
+                        <img src="/assets/images/DV_KyGui.jpg" style="width: 480px; height: 160px;" alt="Service 4" class="img-fluid rounded" />
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </section>
+    <!-- Policys -->
+    <section id="policy" class="section-width mt-3 mb-3">
+        <div class="mx-auto text-center">
+            <h2 class="mb-2">Lý do chọn PETSS</h2>
+            <img src="/assets/images/LÝ DO ĐẾN VỚI PET HOUSE.png" style="width: 840px; height: 320px;" alt="" class="img-fluid rounded" />
+
+        </div>
+    </section>
+    <hr />
+    <!-- Caroursel -->
+    @* <section id="caroursel" class="section-width mt-3"> *@
+    @*     <div class="row mx-auto center"> *@
+    @*         <div class="col-auto"> *@
+    @*             <img src="https://placehold.co/200x200" alt="Item" class="img-fluid rounded" /> *@
+    @*         </div> *@
+    @*         <div class="col-auto"> *@
+    @*             <img src="https://placehold.co/200x200" alt="Item" class="img-fluid rounded" /> *@
+    @*         </div> *@
+    @*         <div class="col-auto"> *@
+    @*             <img src="https://placehold.co/200x200" alt="Item" class="img-fluid rounded" /> *@
+    @*         </div> *@
+    @*         <div class="col-auto"> *@
+    @*             <img src="https://placehold.co/200x200" alt="Item" class="img-fluid rounded" /> *@
+    @*         </div> *@
+    @*         <div class="col-auto"> *@
+    @*             <img src="https://placehold.co/200x200" alt="Item" class="img-fluid rounded" /> *@
+    @*         </div> *@
+    @*     </div> *@
+    @* </section> *@
+</main>
+

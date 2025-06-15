@@ -1,0 +1,41 @@
+﻿@{
+    Layout = "Admin/_LayoutAdmin";
+}
+<h1>Trang Chủ</h1>
+<hr />
+<section id="hero" class="mb-3 section-width center">
+    <img src="~/assets/images/Banner.png" width="1200" height="200" alt="Hero" class="img-fluid" />
+</section>
+<section id="quick-action" class="mb-3 section-width center">
+    <div class="d-grid gap-3 d-md-block">
+        <a class="btn btn-primary fw-bold rounded p-4 justify-content-center" style="height: 120px; width: 120px;" asp-controller="SanPham" asp-action="Create">Thêm Sản Phẩm</a>
+        <a class="btn btn-primary fw-bold rounded p-4 justify-content-center" style="height: 120px; width: 120px;" asp-controller="KhachHang" asp-action="Create">Thêm Khách Hàng</a>
+        <a class="btn btn-primary fw-bold rounded p-4 justify-content-center" style="height: 120px; width: 120px;" asp-controller="NhanVien" asp-action="Create">Thêm Nhân Viên</a>
+    </div>
+</section>
+<section id="Trang Chủ" class="mb-3 section-width">
+    <div class="row">
+        <div class="col">
+            <div class="card">
+                <div class="card-body" style="width: 600px; height: 200px;">
+                    <div class="center mt-5">
+                        <h4>Tổng Doanh Thu: @ViewData["DoanhThu"]</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <div class="card-body" style="width: 600px; height: 200px;">
+                    <div class="center mt-3">
+                        <div>
+                            <p>Đơn Hàng: <span class="fw-bold">@ViewData["DonHang"]</span></p>
+                            <p>Lịch Hẹn: <span class="fw-bold">@ViewData["LichHen"]</span></p>
+                            <p>Đã Hủy: <span class="fw-bold">@ViewData["Huy"]</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

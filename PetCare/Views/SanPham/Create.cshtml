@@ -1,0 +1,74 @@
+﻿@model SanphamDto
+@{
+    Layout = "Admin/_LayoutAdmin";
+}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validation-unobtrusive/3.2.12/jquery.validate.unobtrusive.min.js"></script>
+
+<div class="row">
+    <div class="col-md-8 mx-auto rounded border p-3">
+        <h2 class="text-center mb-5">Thêm Sản Phẩm</h2>
+
+        <form method="POST" enctype="multipart/form-data">
+            <!-- Tên Sản Phẩm -->
+            <div class="row mb-3">
+                <label class="col-sm-4 col-form-label">Tên Sản Phẩm</label>
+                <div class="col-sm-8">
+                    <input class="form-control" asp-for="ten_sanpham" placeholder="Nhập tên sản phẩm" />
+                    <span asp-validation-for="ten_sanpham" class="text-danger"></span>
+                </div>
+            </div>
+
+            <!-- Loại Sản Phẩm -->
+            <div class="row mb-3">
+                <label class="col-sm-4 col-form-label">Loại Sản Phẩm</label>
+                <div class="col-sm-8">
+                    <select asp-for="id_loaisp" class="form-control" asp-items="@(new SelectList(ViewBag.LoaiSP, "id", "name"))">
+                        <option value="">-- Chọn Loại --</option>
+                    </select>
+                    <span asp-validation-for="id_loaisp" class="text-danger"></span>
+                </div>
+            </div>
+
+            <!-- Thành tiền -->
+            <div class="row mb-3">
+                <label class="col-sm-4 col-form-label">Thành tiền</label>
+                <div class="col-sm-8">
+                    <input class="form-control" asp-for="thanhtien" placeholder="Nhập số tiền" />
+                    <span asp-validation-for="thanhtien" class="text-danger"></span>
+                </div>
+            </div>
+
+            <!-- Hình Ảnh -->
+            <div class="row mb-3">
+                <label class="col-sm-4 col-form-label">Hình Ảnh</label>
+                <div class="col-sm-8">
+                    <input type="file" class="form-control" asp-for="hinhanh" />
+                    <span asp-validation-for="hinhanh" class="text-danger"></span>
+                </div>
+            </div>
+
+            <!-- Mã Sản Phẩm -->
+            <div class="row mb-3">
+                <label class="col-sm-4 col-form-label">Mã sản phẩm</label>
+                <div class="col-sm-8">
+                    <input class="form-control" asp-for="ma_sanpham" placeholder="Nhập mã sản phẩm" />
+                    <span asp-validation-for="ma_sanpham" class="text-danger"></span>
+                </div>
+            </div>
+
+            <!-- Nút Xác Nhận và Thoát -->
+            <div class="row">
+                <div class="offset-sm-4 col-sm-4 d-grid">
+                    <button type="submit" class="btn btn-primary">Xác nhận</button>
+                </div>
+
+                <div class="col-sm-4 d-grid">
+                    <a class="btn btn-outline-danger" asp-controller="SanPham" asp-action="Index" role="button">
+                        Thoát
+                    </a>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>

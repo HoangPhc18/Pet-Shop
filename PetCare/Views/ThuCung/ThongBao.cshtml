@@ -1,0 +1,12 @@
+﻿@{
+    Layout = "Admin/_LayoutAdmin";
+    var message = ViewData["Message"];
+    var returnUrl = ViewData["ReturnUrl"];
+}
+
+<div class="container mt-5">
+    <div class="alert alert-info text-center">
+        <h4>@message</h4>
+        <a href="@returnUrl" class="btn btn-primary mt-3">Quay lại</a>
+    </div>
+</div>

@@ -1,0 +1,27 @@
+﻿@model DichVuDto
+@{
+    Layout = "Admin/_LayoutAdmin";
+}
+
+<h2>Thêm Dịch Vụ</h2>
+
+<form method="post">
+    <div class="mb-3">
+        <label>Tên Dịch Vụ</label>
+        <input class="form-control" asp-for="ten_dichvu" />
+        <span asp-validation-for="ten_dichvu" class="text-danger"></span>
+    </div>
+
+    <div class="row mb-3">
+        <label class="col-sm-4 col-form-label">Loại Dịch Vụ</label>
+        <div class="col-sm-8">
+            <select class="form-select" asp-for="loai_dichvu">
+                <option value="1">Cân nặng</option>
+                <option value="2">Ngày</option>
+            </select>
+        </div>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Thêm</button>
+    <a class="btn btn-secondary" asp-action="Index">Thoát</a>
+</form>

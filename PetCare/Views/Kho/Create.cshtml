@@ -1,0 +1,23 @@
+﻿@model KhohangDto
+@{
+    Layout = "Admin/_LayoutAdmin";
+}
+
+<h2>Nhập Hàng</h2>
+
+<form method="post">
+    <div class="mb-3">
+        <label>Sản Phẩm</label>
+        <input class="form-control" asp-for="ma_sanpham" />
+        <span asp-validation-for="ma_sanpham" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label>Số Lượng</label>
+        <input class="form-control" asp-for="soluong" />
+        <span asp-validation-for="soluong" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Xác nhận</button>
+    <a class="btn btn-secondary" asp-action="Index">Thoát</a>
+</form>

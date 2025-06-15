@@ -1,0 +1,65 @@
+﻿@{
+    ViewData["Title"] = "Product Details";
+    Layout = "_LayoutStore";
+}
+
+<div class="container my-5">
+    <div class="row">
+        <div class="col-md-6">
+            <div id="productCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="/placeholder.svg?height=400&width=600" class="d-block w-100" alt="Product Image 1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/placeholder.svg?height=400&width=600" class="d-block w-100" alt="Product Image 2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/placeholder.svg?height=400&width=600" class="d-block w-100" alt="Product Image 3">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#productCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#productCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <div class="row mt-3">
+                <div class="col-3">
+                    <img src="/placeholder.svg?height=100&width=100" class="img-thumbnail" alt="Thumbnail 1">
+                </div>
+                <div class="col-3">
+                    <img src="/placeholder.svg?height=100&width=100" class="img-thumbnail" alt="Thumbnail 2">
+                </div>
+                <div class="col-3">
+                    <img src="/placeholder.svg?height=100&width=100" class="img-thumbnail" alt="Thumbnail 3">
+                </div>
+                <div class="col-3">
+                    <img src="/placeholder.svg?height=100&width=100" class="img-thumbnail" alt="Thumbnail 4">
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <h1 class="mb-3">Product Name</h1>
+            <p class="lead mb-3">$19.99</p>
+            <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <div class="mb-3">
+                <label for="quantity" class="form-label">Quantity</label>
+                <input type="number" class="form-control" id="quantity" value="1" min="1" style="width: 100px;">
+            </div>
+            <button class="btn btn-primary btn-lg mb-3">Add to Cart</button>
+            <button class="btn btn-outline-secondary btn-lg mb-3">Thêm vào giỏ hàng</button>
+            <hr>
+            <h4>Chi tiết sản phẩm</h4>
+            <ul>
+                <li>Feature 1</li>
+                <li>Feature 2</li>
+                <li>Feature 3</li>
+            </ul>
+        </div>
+    </div>
+</div>
+

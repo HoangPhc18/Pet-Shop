@@ -1,0 +1,50 @@
+﻿@model VMTrangThaiDH
+@{
+    Layout = "Admin/_LayoutAdmin";
+}
+
+<div class="row">
+    <div class="col-md-8 mx-auto rounded border p-3">
+        <h2 class="text-center mb-5">Cập nhật đơn hàng</h2>
+
+        <form method="POST" enctype="multipart/form-data">
+            <input type="hidden" asp-for="id_nv" />
+            <input type="hidden" asp-for="id_dh" />
+            <div class="row mb-3">
+                <label class="col-sm-4 col-form-label">Cập nhật trạng thái đơn</label>
+                <div class="col-sm-8">
+                    <input class="form-control" asp-for="ma_donhang" />
+                    <span asp-validation-for="ma_donhang" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <label for="trangThaiSelect" class="form-label col-sm-4">Trạng thái</label>
+                <div class="col-sm-8">
+                    <select class="form-select" id="trangThaiSelect" name="trang_thai" required>
+                        <option value="" disabled selected>-- Chọn Trạng Thái --</option>
+                        @if (ViewBag.TrangThaiList != null)
+                        {
+                            foreach (var status in ViewBag.TrangThaiList as List<string>)
+                            {
+                                <option value="@status">@status</option>
+                            }
+                        }
+                    </select>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="offset-sm-4 col-sm-4 d-grid">
+                    <button type="submit" class="btn btn-primary">Xác nhận</button>
+                </div>
+
+                <div class="col-sm-4 d-grid">
+                    <a class="btn btn-outline-danger" asp-controller="DonHang" asp-action="Index" role="button">
+                        Thoát
+                    </a>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>

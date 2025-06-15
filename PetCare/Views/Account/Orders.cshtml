@@ -1,0 +1,46 @@
+﻿@model List<VMChitietdh>
+@{
+    int stt = 1;
+}
+
+<h2 class="text-center mb-5">Quản Lý Đơn Hàng</h2>
+<!-- Công việc thêm: Thêm điều kiện kiểm tra dữ liệu nếu như trống thì in dòng "Không có dữ liệu" -->
+<input type="hidden" id="DHid" />
+<table class="table">
+    <thead>
+        <tr>
+            <th>STT</th>
+            <th>Số điện thoại</th>
+            <th>Địa chỉ giao hàng</th>
+            <th>Tổng Tiền</th>
+            <th>Ngày Tạo</th>
+            <th>Trạng Thái</th>
+            <th>Ghi Chú</th>
+            <th>Mã đơn hàng</th>
+            <th>Chức năng</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var donhang in Model)
+        {
+            <tr>
+                <input type="hidden" value="@donhang.id_dh" name="id_dh" />
+                <td>@stt</td>
+                <td>@donhang.sdt_kh</td>
+                <td>@donhang.diachi_giao</td>
+                <td>@donhang.tong_tien.ToString("N0")</td>
+                <td>@donhang.ngay_tao</td>
+                <td>@donhang.trang_thai</td>
+                <td>@donhang.ghi_chu</td>
+                <td><a class="form-text" asp-controller="Account" asp-action="Details" asp-route-id="@donhang.id_dh">@donhang.ma_dh</a></td>
+                <td style="white-space: nowrap">
+                    <form asp-controller="Account" asp-action="Cancel" method="post" style="display:inline;">
+                        <input type="hidden" name="id" value="@donhang.id_dh" />
+                        <button type="submit" class="btn btn-danger btn-sm" onclick="return confirm('Chắc chắn hủy đơn hàng này?')">Hủy</button>
+                    </form>
+                </td>
+            </tr>
+            stt++;
+        }
+    </tbody>
+</table>

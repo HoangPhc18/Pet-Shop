@@ -1,0 +1,67 @@
+﻿@model List<VMChitietLichHen>
+@{
+    Layout = "Admin/_LayoutAdmin";
+}
+
+<h2 class="text-center mb-5">Quản Lý Lịch Hẹn</h2>
+
+<form asp-action="Index" class="mb-3" method="get">
+    <div class="form-group row g-3">
+        <div class="col-md-6 row">
+            <label class="form-label col mt-2" for="ngayhen">Ngày Hẹn </label>
+            <input type="date" class="form-control col" name="ngayhen" placeholder="Ngày Hẹn" value="" />
+        </div>
+        <div class="col-md-6 row">
+            <label class="form-label col mt-2" for="sortOption">Trạng Thái </label>
+            <select id="sortOption" name="sortOption" class="form-control col">
+                @foreach (var item in ViewBag.SortOptions as List<SelectListItem>)
+                {
+                    <option value="@item.Value">@item.Text</option>
+                }
+            </select>
+        </div>
+    </div>
+    <button type="submit" class="btn btn-primary col-auto rounded mt-3">Tìm Kiếm</button>
+</form>
+<!-- Công việc thêm: Thêm điều kiện kiểm tra dữ liệu nếu như trống thì in dòng "Không có dữ liệu" -->
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>STT</th>
+            <th>Tên Khách Hàng</th>
+            <th>Số Điện Thoại</th>
+            <th>Dịch Vụ</th>
+            <th>Lịch Hẹn</th>
+            <th>Trạng Thái</th>
+            <th>Ghi Chú</th>
+            <th>Chức năng</th>
+        </tr>
+    </thead>
+    <tbody>
+        @{
+            int row = 1;
+        }
+        @foreach (var lichhen in Model)
+        {
+            <tr>
+                <td>@row</td>
+                <td>@lichhen.ten_kh</td>
+                <td>@lichhen.sdt_kh</td>
+                <td>@lichhen.ten_dichvu</td>
+                <td>@lichhen.ngay_hen</td>
+                <td>@lichhen.trang_thai</td>
+                <td>@lichhen.ghi_chu</td>
+                <td style="white-space: nowrap">
+                    <a class="btn btn-primary btn-sm" asp-controller="LichHen" asp-action="Edit"
+                       asp-route-id="@lichhen.id_lich">Cập nhật trạng thái</a>
+                    <a class="btn btn-danger btn-sm" asp-controller="LichHen" asp-action="Delete"
+                       asp-route-id="@lichhen.id_lich" onclick="return confirm('Chắc chắn xóa sản phẩm này?')">Xóa</a>
+                </td>
+            </tr>
+            row++;
+        }
+    </tbody>
+</table>
+
+

@@ -1,0 +1,56 @@
+﻿@model KhachhangDto
+
+<div class="container">
+    <form method="post" enctype="multipart/form-data" asp-action="Profile">
+        <input type="hidden" asp-for="id_kh" value="@ViewData["UserId"]" />
+        <div class="card mt-3">
+            <div class="card-header">
+                <h3>Thông tin tài khoản</h3>
+            </div>
+            <div class="card-body">
+                <div class="mb-3">
+                    <label asp-for="ten_kh" class="form-label">Họ & Tên</label>
+                    <input class="form-control" asp-for="ten_kh" />
+                    <span asp-validation-for="ten_kh" class="text-danger"></span>
+                </div>
+                <div class="mb-3">
+                    <label asp-for="sdt_kh" class="form-label">Số điện thoại</label>
+                    <input class="form-control" asp-for="sdt_kh" />
+                    <span asp-validation-for="sdt_kh" class="text-danger"></span>
+                </div>
+                <div class="mb-3">
+                    <label asp-for="diachi_kh" class="form-label">Email: </label>
+                    <input class="form-control" asp-for="diachi_kh" />
+                    <span asp-validation-for="diachi_kh" class="text-danger"></span>
+                </div>
+            </div>
+        </div>
+        <div class="card mt-3">
+            <div class="card-header">
+                <h3>Thay đổi mật khẩu</h3>
+            </div>
+            <div class="card-body">
+                <!-- Mật Khẩu -->
+                <div class="row mb-3">
+                    <label class="col-sm-4 col-form-label">Mật Khẩu</label>
+                    <div class="col-sm-8">
+                        <input type="password" class="form-control" asp-for="matkhau_kh" />
+                        <span asp-validation-for="matkhau_kh" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <!-- Xác Nhận Mật Khẩu -->
+                <div class="row mb-3">
+                    <label class="col-sm-4 col-form-label">Xác Nhận Mật Khẩu</label>
+                    <div class="col-sm-8">
+                        <input type="password" class="form-control" id="confirmPassword" name="ConfirmPassword" />
+                        <span class="text-danger" asp-validation-for="ConfirmPassword"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <button type="submit" class="btn btn-success mt-3">Lưu Thay Đổi</button>
+    </form>
+</div>
+

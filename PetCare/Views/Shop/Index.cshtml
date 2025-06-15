@@ -1,0 +1,62 @@
+﻿@model VMHienThiShop
+
+@{
+    ViewData["Title"] = "Home";
+    Layout = "_LayoutStore";
+}
+
+<div class="container-fluid p-0">
+
+    <div class="hero bg-light py-5">
+        <div class="container">
+            <div class="center">
+                <div class="">
+                    <img src="/assets/thumbnails/cat-and-dog-love-your-pet-day-banner-greeting-card-social-media-pink-background-photo.jpg" alt="Pet Food" class="img-fluid rounded">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container my-5">
+        <h2 class="mb-4">Danh Mục Sản Phẩm</h2>
+        <div class="row center">
+            @foreach (var loaisp in Model.loaisps)
+            {
+                <div class="col-md-3 mb-4">
+                    <div class="">
+                        <div class="text-center">
+                            <a asp-controller="Shop" asp-action="Category" asp-route-id_loai="@loaisp.id" class="w-50">
+                                <img src="~/assets/loaisp/@loaisp.hinh_anh" class="card-img-top rounded-circle w-50" alt="@loaisp.name">
+                            </a>
+                            <h5 class="h4 mt-2">@loaisp.name</h5>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+    <hr class="container opacity-25" />
+    <div class="container my-5">
+        <div class="row mb-4">
+            <h2 class="col-10 align-self-start">Khám Phá Sản Phẩm</h2>
+            <div class="col-2 align-self-end">
+                <a asp-controller="Shop" asp-action="Category" class="btn btn-primary mb-2 rounded-pill">Xem thêm >></a>
+            </div>
+        </div>
+        <div class="row">
+            @foreach (var sp in Model.sanphams.Take(20))
+            {
+                <div class="col-md-3 mb-4">
+                    <div class="card center">
+                        <img src="~/assets/sanphams/@sp.hinhanh" class="card-img-top w-75" alt="@sp.ten_sanpham">
+                        <div class="card-body">
+                            <p class="card-title fw-bold">@sp.ten_sanpham</p>
+                            <p class="card-text text-center">@sp.thanhtien.ToString("N0")đ</p>
+                            <a asp-controller="Shop" asp-action="AddToCart" asp-route-productid="@sp.id_sanpham" class="btn btn-primary rounded-pill w-100">Thêm</a>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>

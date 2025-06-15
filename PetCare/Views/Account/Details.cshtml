@@ -1,0 +1,72 @@
+﻿@model PetCare.Models.VMChitietdh
+@{
+    int tong_sl_dat = 1;
+}
+
+<div class="container">
+    <div class="card mb-3">
+        <div class="card-header">
+            <strong>Thông tin đơn hàng</strong>
+        </div>
+        <div class="card-body">
+            <p><strong>Order Code:</strong> @Model.ma_dh</p>
+            <p><strong>Nhân viên nhận đơn:</strong> @Model.ten_nv </p>
+            <p><strong>Customer:</strong> @Model.ten_kh</p>
+            <p><strong>Phone:</strong> @Model.sdt_kh</p>
+            <p><strong>Shipping Address:</strong> @Model.diachi_giao</p>
+            <p><strong>Status:</strong> @Model.trang_thai</p>
+            <p><strong>Order Date:</strong> @Model.ngay_tao.ToString("dd/MM/yyyy HH:mm")</p>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-header">
+            <strong>Tổng sản phẩm [@tong_sl_dat]</strong>
+        </div>
+        <div class="card-body">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>STT</th>
+                        <th>Tên Sản Phẩm</th>
+                        <th>Số Lượng Đặt</th>
+                        <th>Giá Thành</th>
+                        <th>Thành Tiền</th>
+                        <th>Hình Ảnh</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @if (Model.giohang != null && Model.giohang.Any())
+                    {
+                        int index = 1;
+                        foreach (var product in Model.giohang)
+                        {
+                            <tr>
+                                <td class="align-middle">@index</td>
+                                <td class="align-middle">@product.ten_sp</td>
+                                <td class="align-middle">@product.so_luong</td>
+                                <td class="align-middle">@product.gia_sp.ToString("N0")</td>
+                                <td class="align-middle">@product.thanh_tien.ToString("N0")đ</td>
+                                <td class="align-middle"><img width="80" src="~/assets/sanphams/@product.hinh_anh?height=80&width=80" /></td>
+                            </tr>
+                            tong_sl_dat += product.so_luong;
+                        }
+                        index++;
+                    }
+                    else
+                    {
+                        <tr>
+                            <td colspan="6" class="text-center">Không có sản phẩm trong đơn này.</td>
+                        </tr>
+                    }
+                </tbody>
+                <tr>
+                    <td colspan="4">Tổng tiền</td>
+                    <td>
+                        <p>@Model.tong_tien.ToString("N0")đ</p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>

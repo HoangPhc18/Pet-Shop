@@ -1,0 +1,43 @@
+﻿@model List<Sanpham_Loai>;
+@{
+    Layout = "Admin/_LayoutAdmin";
+}
+
+<h2 class="text-center mb-5">Quản Lý Loại Sản Phẩm</h2>
+
+<div class="row mb-5">
+    <div class="col">
+        <a class="btn btn-primary" asp-asp-controller="LoaiSP" asp-action="Create">Thêm mới</a>
+    </div>
+    <div class="col">
+    </div>
+</div>
+
+<!-- Công việc thêm: Thêm điều kiện kiểm tra dữ liệu nếu như trống thì in dòng "Không có dữ liệu" -->
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Hình Ảnh</th>
+            <th>Loại</th>
+            <th>Thao Tác</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var loai_sp in Model)
+        {
+            <tr>
+                <td>@loai_sp.id</td>
+                <td><img width="150" src="assets\loaisp\@loai_sp.hinh_anh" /></td>
+                <td>@loai_sp.name</td>
+                <td style="white-space: nowrap">
+                    <a class="btn btn-primary btn-sm" asp-controller="LoaiSP" asp-action="Edit"
+                       asp-route-id="@loai_sp.id">Sửa</a>
+                    <a class="btn btn-danger btn-sm" asp-controller="LoaiSP" asp-action="Delete"
+                       asp-route-id="@loai_sp.id" onclick="return confirm('Chắc chắn xóa sản phẩm này?')">Xóa</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

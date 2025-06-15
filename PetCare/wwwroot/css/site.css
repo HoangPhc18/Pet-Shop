@@ -1,0 +1,208 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* General Container */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header */
+h2 {
+    color: #343a40;
+    font-size: 2rem;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+/* Table */
+table {
+    width: 100%;
+    margin-bottom: 30px;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+    table th,
+    table td {
+        padding: 12px;
+        text-align: center;
+        border: 1px solid #dee2e6;
+    }
+
+    table thead {
+        background-color: #343a40;
+        color: white;
+    }
+
+    table tbody tr:hover {
+        background-color: #f1f1f1;
+    }
+
+/* Form */
+.form-group {
+    margin-bottom: 20px;
+}
+
+    .form-group label {
+        font-weight: bold;
+    }
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+    .btn:hover {
+        background-color: #0056b3;
+    }
+
+/* Button styles */
+.btn-sm {
+    padding: 5px 10px;
+    font-size: 0.875rem;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-end {
+    text-align: end;
+}
+
+.mt-3 {
+    margin-top: 1rem;
+}
+
+.mb-3 {
+    margin-bottom: 1rem;
+}
+
+.mb-4 {
+    margin-bottom: 2rem;
+}
+
+/* Add/Update forms */
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+    .form-row .col {
+        flex: 1;
+        margin-right: 10px;
+    }
+
+        .form-row .col:last-child {
+            margin-right: 0;
+        }
+
+/* Card Styles */
+.card {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+/* Center content */
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-muted {
+    color: #6c757d;
+}
+
+.text-dark {
+    color: #343a40;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Image styling */
+img {
+    border-radius: 4px;
+    object-fit: cover;
+}
+
+.table-dark {
+    background-color: #343a40;
+    color: white;
+}
+
+.white-space-nowrap {
+    white-space: nowrap;
+}
+
+.row.g-3 {
+    margin: 0 -10px;
+}
+
+.col-auto {
+    flex: 0 0 auto;
+    width: auto;
+}
+
+/* Additional small tweaks */
+table td a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+    table td a:hover {
+        text-decoration: underline;
+    }
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.btn-sm {
+    padding: 5px 10px;
+    font-size: 0.875rem;
+}
+
+/* Styling for select dropdown */
+select.form-control {
+    width: auto;
+    display: inline-block;
+}

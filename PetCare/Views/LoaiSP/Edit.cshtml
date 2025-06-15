@@ -1,0 +1,52 @@
+﻿@model Sanpham_loaiDto
+@{
+    Layout = "Admin/_LayoutAdmin";
+}
+
+<div class="row">
+    <div class="col-md-8 mx-auto rounded border p-3">
+        <h2 class="text-center mb-5">Thêm Loại Sản Phẩm</h2>
+
+        <form method="POST" enctype="multipart/form-data">
+            <div class="row mb-3">
+                <label class="col-sm-4 col-form-label">ID Sản Phẩm</label>
+                <div class="col-sm-8">
+                    <input class="form-control plaintext" readonly value="@ViewData["Id"]" />
+                </div>
+            </div>
+            <div class="row mb-3">
+                <label class="col-sm-4 col-form-label">Loại Sản Phẩm</label>
+                <div class="col-sm-8">
+                    <input class="form-control" asp-for="name" />
+                    <span asp-validation-for="name" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <div class="offset-sm-4 col-sm-8">
+                    <img src="/assets/loaisp/@ViewData["ImageFileName"]" width="150" />
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <label class="col-sm-4 col-form-label">Hình Ảnh</label>
+                <div class="col-sm-8">
+                    <input class="form-control" asp-for="hinh_anh" />
+                    <span asp-validation-for="hinh_anh" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="offset-sm-4 col-sm-4 d-grid">
+                    <button type="submit" class="btn btn-primary">Xác nhận</button>
+                </div>
+
+                <div class="col-sm-4 d-grid">
+                    <a class="btn btn-outline-danger" asp-controller="LoaiSP" asp-action="Index" role="button">
+                        Thoát
+                    </a>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>

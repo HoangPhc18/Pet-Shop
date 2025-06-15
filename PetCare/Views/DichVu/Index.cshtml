@@ -1,0 +1,38 @@
+﻿@model List<PetCare.Models.DichVu>
+@{
+    Layout = "Admin/_LayoutAdmin";
+}
+
+<h2 class="text-center mb-5">Dịch Vụ</h2>
+
+<a class="btn btn-primary mb-3" asp-controller="DichVu" asp-action="Create">Thêm Dịch Vụ</a>
+
+<!-- Table to Display Dịch Vụ -->
+<table class="table table-bordered table-striped table-hover">
+    <thead class="table-dark text-center">
+        <tr>
+            <!-- <th>ID</th>-->
+            <th>Tên</th>
+            <th>Thao Tác</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var dv in Model)
+        {
+            <tr>
+                <!--<td class="text-center">@dv.id_dichvu</td>-->
+                <td>
+                    <a class="text-dark" asp-action="Detail" asp-route-id="@dv.id_dichvu">@dv.ten_dichvu</a>
+                </td>
+                <td class="text-center" style="white-space: nowrap;">
+                    <a class="btn btn-primary btn-sm" asp-controller="DichVu" asp-action="Edit" asp-route-id="@dv.id_dichvu">Sửa</a>
+                    <form asp-controller="DichVu" asp-action="Delete" method="post" style="display:inline;">
+                        <input type="hidden" name="id" value="@dv.id_dichvu" />
+                        <button type="submit" class="btn btn-danger btn-sm">Xóa</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+

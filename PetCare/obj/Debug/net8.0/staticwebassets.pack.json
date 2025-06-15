@@ -1,0 +1,513 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\DoAn\\DACS2\\PetCare\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\PetCare.bundle.scp.css",
+      "PackagePath": "staticwebassets\\PetCare.coc9qsu1qj.bundle.scp.css"
+    },
+    {
+      "Id": "E:\\DoAn\\DACS2\\PetCare\\wwwroot\\assets\\images\\Banner.png",
+      "PackagePath": "staticwebassets\\assets\\images\\Banner.png"
+    },
+    {
+      "Id": "E:\\DoAn\\DACS2\\PetCare\\wwwroot\\assets\\images\\DV_Cat.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\DV_Cat.jpg"
+    },
+    {
+      "Id": "E:\\DoAn\\DACS2\\PetCare\\wwwroot\\assets\\images\\DV_KyGui.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\DV_KyGui.jpg"
+    },
+    {
+      "Id": "E:\\DoAn\\DACS2\\PetCare\\wwwroot\\assets\\images\\DV_Nhuom.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\DV_Nhuom.jpg"
+    },
+    {
+      "Id": "E:\\DoAn\\DACS2\\PetCare\\wwwroot\\assets\\images\\DV_Tam.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\DV_Tam.jpg"
+    },
+    {
+      "Id": "E:\\DoAn\\DACS2\\PetCare\\wwwroot\\assets\\images\\LÝ DO ĐẾN VỚI PET HOUSE.png",
+      "PackagePath": "staticwebassets\\assets\\images\\LÝ DO ĐẾN VỚI PET HOUSE.png"
+    },
+    {
+      "Id": "E:\\DoAn\\DACS2\\PetCare\\wwwroot\\assets\\images\\bang-gia-dich-vu.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\bang-gia-dich-vu.webp"
+    },
+    {
+      "Id": "E:\\DoAn\\DACS2\\PetCare\\wwwroot\\assets\\loaisp\\20241201021607572.jpg",
+      "PackagePath": "staticwebassets\\assets\\loaisp\\20241201021607572.jpg"
+    },
+    {
+      "Id": "E:\\DoAn\\DACS2\\PetCare\\wwwroot\\assets\\loaisp\\20241204201513001.jpg",
+      "PackagePath": "staticwebassets\\assets\\loaisp\\20241204201513001.jpg"
+    },
+    {
+      "Id": "E:\\DoAn\\DACS2\\PetCare\\wwwroot\\assets\\loaisp\\20241205010616629.jpg",
+      "PackagePath": "staticwebassets\\assets\\loaisp\\20241205010616629.jpg"
+    },
+    {
+      "Id": "E:\\DoAn\\DACS2\\PetCare\\wwwroot\\assets\\loaisp\\20241205010642473.jpg",
+      "PackagePath": "staticwebassets\\assets\\loaisp\\20241205010642473.jpg"
+    },
+    {
+      "Id": "E:\\DoAn\\DACS2\\PetCare\\wwwroot\\assets\\loaisp\\20241205012613892.jpg",
+      "PackagePath": "staticwebassets\\assets\\loaisp\\20241205012613892.jpg"
+    },
+    {
+      "Id": "E:\\DoAn\\DACS2\\PetCare\\wwwroot\\assets\\loaisp\\20241205013428169.jpg",
+      "PackagePath": "staticwebassets\\assets\\loaisp\\20241205013428169.jpg"
+    },
+    {
+      "Id": "E:\\DoAn\\DACS2\\PetCare\\wwwroot\\assets\\loaisp\\20241206153752605.jpg",
+      "PackagePath": "staticwebassets\\assets\\loaisp\\20241206153752605.jpg"
+    },
+    {
+      "Id": "E:\\DoAn\\DACS2\\PetCare\\wwwroot\\assets\\loaisp\\20241213225613783.png",
+      "PackagePath": "staticwebassets\\assets\\loaisp\\20241213225613783.png"
+    },
+    {
+      "Id": "E:\\DoAn\\DACS2\\PetCare\\wwwroot\\assets\\loaisp\\20241213225823625.png",
+      "PackagePath": "staticwebassets\\assets\\loaisp\\20241213225823625.png"
+    },
+    {
+      "Id": "E:\\DoAn\\DACS2\\PetCare\\wwwroot\\assets\\loaisp\\20241224165536201.webp",
+      "PackagePath": "staticwebassets\\assets\\loaisp\\20241224165536201.webp"
+    },
+    {
+      "Id": "E:\\DoAn\\DACS2\\PetCare\\wwwroot\\assets\\loaisp\\20241224181617587.webp",
+      "PackagePath": "staticwebassets\\assets\\loaisp\\20241224181617587.webp"
+    },
+    {
+      "Id": "E:\\DoAn\\DACS2\\PetCare\\wwwroot\\assets\\loaisp\\20241224181630042.webp",
+      "PackagePath": "staticwebassets\\assets\\loaisp\\20241224181630042.webp"
+    },
+    {
+      "Id": "E:\\DoAn\\DACS2\\PetCare\\wwwroot\\assets\\loaisp\\20241224181828973.jpg",
+      "PackagePath": "staticwebassets\\assets\\loaisp\\20241224181828973.jpg"
+    },
+    {
+      "Id": "E:\\DoAn\\DACS2\\PetCare\\wwwroot\\assets\\loaisp\\20241224181845583.jpg",
+      "PackagePath": "staticwebassets\\assets\\loaisp\\20241224181845583.jpg"
+    },
+    {
+      "Id": "E:\\DoAn\\DACS2\\PetCare\\wwwroot\\assets\\loaisp\\20241228182210252.webp",
+      "PackagePath": "staticwebassets\\assets\\loaisp\\20241228182210252.webp"
+    },
+    {
+      "Id": "E:\\DoAn\\DACS2\\PetCare\\wwwroot\\assets\\loaisp\\20241228182217651.webp",
+      "PackagePath": "staticwebassets\\assets\\loaisp\\20241228182217651.webp"
+    },
+    {
+      "Id": "E:\\DoAn\\DACS2\\PetCare\\wwwroot\\assets\\loaisp\\20241228182227322.jpg",
+      "PackagePath": "staticwebassets\\assets\\loaisp\\20241228182227322.jpg"
+    },
+    {
+      "Id": "E:\\DoAn\\DACS2\\PetCare\\wwwroot\\assets\\loaisp\\20241228182238273.jpg",
+      "PackagePath": "staticwebassets\\assets\\loaisp\\20241228182238273.jpg"
+    },
+    {
+      "Id": "E:\\DoAn\\DACS2\\PetCare\\wwwroot\\assets\\loaisp\\20241228185427022.webp",
+      "PackagePath": "staticwebassets\\assets\\loaisp\\20241228185427022.webp"
+    },
+    {
+      "Id": "E:\\DoAn\\DACS2\\PetCare\\wwwroot\\assets\\loaisp\\20241228185447733.webp",
+      "PackagePath": "staticwebassets\\assets\\loaisp\\20241228185447733.webp"
+    },
+    {
+      "Id": "E:\\DoAn\\DACS2\\PetCare\\wwwroot\\assets\\loaisp\\20241228185459614.jpg",
+      "PackagePath": "staticwebassets\\assets\\loaisp\\20241228185459614.jpg"
+    },
+    {
+      "Id": "E:\\DoAn\\DACS2\\PetCare\\wwwroot\\assets\\sanphams\\20241118101522112.jpg",
+      "PackagePath": "staticwebassets\\assets\\sanphams\\20241118101522112.jpg"
+    },
+    {
+      "Id": "E:\\DoAn\\DACS2\\PetCare\\wwwroot\\assets\\sanphams\\20241127215219416.jpg",
+      "PackagePath": "staticwebassets\\assets\\sanphams\\20241127215219416.jpg"
+    },
+    {
+      "Id": "E:\\DoAn\\DACS2\\PetCare\\wwwroot\\assets\\sanphams\\20241130112324281.jpg",
+      "PackagePath": "staticwebassets\\assets\\sanphams\\20241130112324281.jpg"
+    },
+    {
+      "Id": "E:\\DoAn\\DACS2\\PetCare\\wwwroot\\assets\\sanphams\\20241201021810227.jpg",
+      "PackagePath": "staticwebassets\\assets\\sanphams\\20241201021810227.jpg"
+    },
+    {
+      "Id": "E:\\DoAn\\DACS2\\PetCare\\wwwroot\\assets\\sanphams\\20241201025323339.jpg",
+      "PackagePath": "staticwebassets\\assets\\sanphams\\20241201025323339.jpg"
+    },
+    {
+      "Id": "E:\\DoAn\\DACS2\\PetCare\\wwwroot\\assets\\sanphams\\20241205010700796.jpg",
+      "PackagePath": "staticwebassets\\assets\\sanphams\\20241205010700796.jpg"
+    },
+    {
+      "Id": "E:\\DoAn\\DACS2\\PetCare\\wwwroot\\assets\\sanphams\\20241205010732846.jpg",
+      "PackagePath": "staticwebassets\\assets\\sanphams\\20241205010732846.jpg"
+    },
+    {
+      "Id": "E:\\DoAn\\DACS2\\PetCare\\wwwroot\\assets\\sanphams\\20241205012629710.jpg",
+      "PackagePath": "staticwebassets\\assets\\sanphams\\20241205012629710.jpg"
+    },
+    {
+      "Id": "E:\\DoAn\\DACS2\\PetCare\\wwwroot\\assets\\sanphams\\20241205013441531.jpg",
+      "PackagePath": "staticwebassets\\assets\\sanphams\\20241205013441531.jpg"
+    },
+    {
+      "Id": "E:\\DoAn\\DACS2\\PetCare\\wwwroot\\assets\\sanphams\\20241206153809928.jpg",
+      "PackagePath": "staticwebassets\\assets\\sanphams\\20241206153809928.jpg"
+    },
+    {
+      "Id": "E:\\DoAn\\DACS2\\PetCare\\wwwroot\\assets\\sanphams\\20241213225747129.png",
+      "PackagePath": "staticwebassets\\assets\\sanphams\\20241213225747129.png"
+    },
+    {
+      "Id": "E:\\DoAn\\DACS2\\PetCare\\wwwroot\\assets\\sanphams\\20241213225900485.png",
+      "PackagePath": "staticwebassets\\assets\\sanphams\\20241213225900485.png"
+    },
+    {
+      "Id": "E:\\DoAn\\DACS2\\PetCare\\wwwroot\\assets\\sanphams\\20241224171000036.webp",
+      "PackagePath": "staticwebassets\\assets\\sanphams\\20241224171000036.webp"
+    },
+    {
+      "Id": "E:\\DoAn\\DACS2\\PetCare\\wwwroot\\assets\\sanphams\\20241224182425121.jpg",
+      "PackagePath": "staticwebassets\\assets\\sanphams\\20241224182425121.jpg"
+    },
+    {
+      "Id": "E:\\DoAn\\DACS2\\PetCare\\wwwroot\\assets\\sanphams\\20241224182443943.webp",
+      "PackagePath": "staticwebassets\\assets\\sanphams\\20241224182443943.webp"
+    },
+    {
+      "Id": "E:\\DoAn\\DACS2\\PetCare\\wwwroot\\assets\\sanphams\\20241224182624992.webp",
+      "PackagePath": "staticwebassets\\assets\\sanphams\\20241224182624992.webp"
+    },
+    {
+      "Id": "E:\\DoAn\\DACS2\\PetCare\\wwwroot\\assets\\sanphams\\20241224182654660.webp",
+      "PackagePath": "staticwebassets\\assets\\sanphams\\20241224182654660.webp"
+    },
+    {
+      "Id": "E:\\DoAn\\DACS2\\PetCare\\wwwroot\\assets\\sanphams\\20241224182727160.jpg",
+      "PackagePath": "staticwebassets\\assets\\sanphams\\20241224182727160.jpg"
+    },
+    {
+      "Id": "E:\\DoAn\\DACS2\\PetCare\\wwwroot\\assets\\sanphams\\20241228182318496.webp",
+      "PackagePath": "staticwebassets\\assets\\sanphams\\20241228182318496.webp"
+    },
+    {
+      "Id": "E:\\DoAn\\DACS2\\PetCare\\wwwroot\\assets\\sanphams\\20241228182415151.webp",
+      "PackagePath": "staticwebassets\\assets\\sanphams\\20241228182415151.webp"
+    },
+    {
+      "Id": "E:\\DoAn\\DACS2\\PetCare\\wwwroot\\assets\\sanphams\\20241228182435490.jpg",
+      "PackagePath": "staticwebassets\\assets\\sanphams\\20241228182435490.jpg"
+    },
+    {
+      "Id": "E:\\DoAn\\DACS2\\PetCare\\wwwroot\\assets\\sanphams\\20241228182449060.jpg",
+      "PackagePath": "staticwebassets\\assets\\sanphams\\20241228182449060.jpg"
+    },
+    {
+      "Id": "E:\\DoAn\\DACS2\\PetCare\\wwwroot\\assets\\sanphams\\20241228182510149.webp",
+      "PackagePath": "staticwebassets\\assets\\sanphams\\20241228182510149.webp"
+    },
+    {
+      "Id": "E:\\DoAn\\DACS2\\PetCare\\wwwroot\\assets\\sanphams\\20241228183632533.webp",
+      "PackagePath": "staticwebassets\\assets\\sanphams\\20241228183632533.webp"
+    },
+    {
+      "Id": "E:\\DoAn\\DACS2\\PetCare\\wwwroot\\assets\\sanphams\\20241228185109157.jpg",
+      "PackagePath": "staticwebassets\\assets\\sanphams\\20241228185109157.jpg"
+    },
+    {
+      "Id": "E:\\DoAn\\DACS2\\PetCare\\wwwroot\\assets\\sanphams\\20241228185614833.webp",
+      "PackagePath": "staticwebassets\\assets\\sanphams\\20241228185614833.webp"
+    },
+    {
+      "Id": "E:\\DoAn\\DACS2\\PetCare\\wwwroot\\assets\\sanphams\\20241228185704815.webp",
+      "PackagePath": "staticwebassets\\assets\\sanphams\\20241228185704815.webp"
+    },
+    {
+      "Id": "E:\\DoAn\\DACS2\\PetCare\\wwwroot\\assets\\sanphams\\c6fc5251-008a-4a0a-921c-52749aa5e63f.jpg",
+      "PackagePath": "staticwebassets\\assets\\sanphams\\c6fc5251-008a-4a0a-921c-52749aa5e63f.jpg"
+    },
+    {
+      "Id": "E:\\DoAn\\DACS2\\PetCare\\wwwroot\\assets\\sanphams\\cd6b9070-eed9-4e8a-8fc5-d8c00e8f8f6a.jpg",
+      "PackagePath": "staticwebassets\\assets\\sanphams\\cd6b9070-eed9-4e8a-8fc5-d8c00e8f8f6a.jpg"
+    },
+    {
+      "Id": "E:\\DoAn\\DACS2\\PetCare\\wwwroot\\assets\\thumbnails\\cat-and-dog-love-your-pet-day-banner-greeting-card-social-media-pink-background-photo.jpg",
+      "PackagePath": "staticwebassets\\assets\\thumbnails\\cat-and-dog-love-your-pet-day-banner-greeting-card-social-media-pink-background-photo.jpg"
+    },
+    {
+      "Id": "E:\\DoAn\\DACS2\\PetCare\\wwwroot\\assets\\thumbnails\\dog-and-cat-together-cute-pets-isolated-banner-with-copy-space-generative-ai-photo.jpg",
+      "PackagePath": "staticwebassets\\assets\\thumbnails\\dog-and-cat-together-cute-pets-isolated-banner-with-copy-space-generative-ai-photo.jpg"
+    },
+    {
+      "Id": "E:\\DoAn\\DACS2\\PetCare\\wwwroot\\assets\\thumbnails\\petcare-large.jpg",
+      "PackagePath": "staticwebassets\\assets\\thumbnails\\petcare-large.jpg"
+    },
+    {
+      "Id": "E:\\DoAn\\DACS2\\PetCare\\wwwroot\\assets\\thumbnails\\sr_624090.jpg",
+      "PackagePath": "staticwebassets\\assets\\thumbnails\\sr_624090.jpg"
+    },
+    {
+      "Id": "E:\\DoAn\\DACS2\\PetCare\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "E:\\DoAn\\DACS2\\PetCare\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "E:\\DoAn\\DACS2\\PetCare\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "E:\\DoAn\\DACS2\\PetCare\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "E:\\DoAn\\DACS2\\PetCare\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "E:\\DoAn\\DACS2\\PetCare\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "E:\\DoAn\\DACS2\\PetCare\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "E:\\DoAn\\DACS2\\PetCare\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "E:\\DoAn\\DACS2\\PetCare\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "E:\\DoAn\\DACS2\\PetCare\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "E:\\DoAn\\DACS2\\PetCare\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "E:\\DoAn\\DACS2\\PetCare\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\DoAn\\DACS2\\PetCare\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "E:\\DoAn\\DACS2\\PetCare\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "E:\\DoAn\\DACS2\\PetCare\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "E:\\DoAn\\DACS2\\PetCare\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "E:\\DoAn\\DACS2\\PetCare\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "E:\\DoAn\\DACS2\\PetCare\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "E:\\DoAn\\DACS2\\PetCare\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "E:\\DoAn\\DACS2\\PetCare\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\DoAn\\DACS2\\PetCare\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "E:\\DoAn\\DACS2\\PetCare\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "E:\\DoAn\\DACS2\\PetCare\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "E:\\DoAn\\DACS2\\PetCare\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "E:\\DoAn\\DACS2\\PetCare\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "E:\\DoAn\\DACS2\\PetCare\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "E:\\DoAn\\DACS2\\PetCare\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "E:\\DoAn\\DACS2\\PetCare\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\DoAn\\DACS2\\PetCare\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "E:\\DoAn\\DACS2\\PetCare\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "E:\\DoAn\\DACS2\\PetCare\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\DoAn\\DACS2\\PetCare\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "E:\\DoAn\\DACS2\\PetCare\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "E:\\DoAn\\DACS2\\PetCare\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "E:\\DoAn\\DACS2\\PetCare\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "E:\\DoAn\\DACS2\\PetCare\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\DoAn\\DACS2\\PetCare\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "E:\\DoAn\\DACS2\\PetCare\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "E:\\DoAn\\DACS2\\PetCare\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "E:\\DoAn\\DACS2\\PetCare\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "E:\\DoAn\\DACS2\\PetCare\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "E:\\DoAn\\DACS2\\PetCare\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "E:\\DoAn\\DACS2\\PetCare\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "E:\\DoAn\\DACS2\\PetCare\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "E:\\DoAn\\DACS2\\PetCare\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "E:\\DoAn\\DACS2\\PetCare\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "E:\\DoAn\\DACS2\\PetCare\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "E:\\DoAn\\DACS2\\PetCare\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "E:\\DoAn\\DACS2\\PetCare\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\DoAn\\DACS2\\PetCare\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "E:\\DoAn\\DACS2\\PetCare\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "E:\\DoAn\\DACS2\\PetCare\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "E:\\DoAn\\DACS2\\PetCare\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "E:\\DoAn\\DACS2\\PetCare\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "E:\\DoAn\\DACS2\\PetCare\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "E:\\DoAn\\DACS2\\PetCare\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "E:\\DoAn\\DACS2\\PetCare\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\DoAn\\DACS2\\PetCare\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "E:\\DoAn\\DACS2\\PetCare\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "E:\\DoAn\\DACS2\\PetCare\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.PetCare.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.PetCare.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.PetCare.props",
+      "PackagePath": "build\\PetCare.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.PetCare.props",
+      "PackagePath": "buildMultiTargeting\\PetCare.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.PetCare.props",
+      "PackagePath": "buildTransitive\\PetCare.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

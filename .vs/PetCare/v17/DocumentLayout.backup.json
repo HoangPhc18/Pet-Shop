@@ -1,0 +1,119 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\DoAn\\DACS2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BEEBAA2D-54E8-4480-9BC0-8998730CAA30}|PetCare\\PetCare.csproj|e:\\doan\\dacs2\\petcare\\controllers\\admin\\thucungcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEEBAA2D-54E8-4480-9BC0-8998730CAA30}|PetCare\\PetCare.csproj|solutionrelative:petcare\\controllers\\admin\\thucungcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEEBAA2D-54E8-4480-9BC0-8998730CAA30}|PetCare\\PetCare.csproj|e:\\doan\\dacs2\\petcare\\views\\sanpham\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BEEBAA2D-54E8-4480-9BC0-8998730CAA30}|PetCare\\PetCare.csproj|solutionrelative:petcare\\views\\sanpham\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEEBAA2D-54E8-4480-9BC0-8998730CAA30}|PetCare\\PetCare.csproj|e:\\doan\\dacs2\\petcare\\controllers\\admin\\sanphamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEEBAA2D-54E8-4480-9BC0-8998730CAA30}|PetCare\\PetCare.csproj|solutionrelative:petcare\\controllers\\admin\\sanphamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEEBAA2D-54E8-4480-9BC0-8998730CAA30}|PetCare\\PetCare.csproj|e:\\doan\\dacs2\\petcare\\views\\sanpham\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BEEBAA2D-54E8-4480-9BC0-8998730CAA30}|PetCare\\PetCare.csproj|solutionrelative:petcare\\views\\sanpham\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEEBAA2D-54E8-4480-9BC0-8998730CAA30}|PetCare\\PetCare.csproj|e:\\doan\\dacs2\\petcare\\models\\sanphamdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEEBAA2D-54E8-4480-9BC0-8998730CAA30}|PetCare\\PetCare.csproj|solutionrelative:petcare\\models\\sanphamdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEEBAA2D-54E8-4480-9BC0-8998730CAA30}|PetCare\\PetCare.csproj|e:\\doan\\dacs2\\petcare\\views\\sanpham\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BEEBAA2D-54E8-4480-9BC0-8998730CAA30}|PetCare\\PetCare.csproj|solutionrelative:petcare\\views\\sanpham\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ThuCungController.cs",
+              "DocumentMoniker": "E:\\DoAn\\DACS2\\PetCare\\Controllers\\Admin\\ThuCungController.cs",
+              "RelativeDocumentMoniker": "PetCare\\Controllers\\Admin\\ThuCungController.cs",
+              "ToolTip": "E:\\DoAn\\DACS2\\PetCare\\Controllers\\Admin\\ThuCungController.cs",
+              "RelativeToolTip": "PetCare\\Controllers\\Admin\\ThuCungController.cs",
+              "ViewState": "AgIAAHMAAAAAAAAAAAAwwH4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T06:24:26.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\DoAn\\DACS2\\PetCare\\Views\\SanPham\\Edit.cshtml",
+              "RelativeDocumentMoniker": "PetCare\\Views\\SanPham\\Edit.cshtml",
+              "ToolTip": "E:\\DoAn\\DACS2\\PetCare\\Views\\SanPham\\Edit.cshtml",
+              "RelativeToolTip": "PetCare\\Views\\SanPham\\Edit.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAADEAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-28T11:49:06.17Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\DoAn\\DACS2\\PetCare\\Views\\SanPham\\Index.cshtml",
+              "RelativeDocumentMoniker": "PetCare\\Views\\SanPham\\Index.cshtml",
+              "ToolTip": "E:\\DoAn\\DACS2\\PetCare\\Views\\SanPham\\Index.cshtml",
+              "RelativeToolTip": "PetCare\\Views\\SanPham\\Index.cshtml",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAACAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-28T11:47:00.579Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SanPhamController.cs",
+              "DocumentMoniker": "E:\\DoAn\\DACS2\\PetCare\\Controllers\\Admin\\SanPhamController.cs",
+              "RelativeDocumentMoniker": "PetCare\\Controllers\\Admin\\SanPhamController.cs",
+              "ToolTip": "E:\\DoAn\\DACS2\\PetCare\\Controllers\\Admin\\SanPhamController.cs",
+              "RelativeToolTip": "PetCare\\Controllers\\Admin\\SanPhamController.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAcwDIAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T11:32:59.086Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\DoAn\\DACS2\\PetCare\\Views\\SanPham\\Create.cshtml",
+              "RelativeDocumentMoniker": "PetCare\\Views\\SanPham\\Create.cshtml",
+              "ToolTip": "E:\\DoAn\\DACS2\\PetCare\\Views\\SanPham\\Create.cshtml",
+              "RelativeToolTip": "PetCare\\Views\\SanPham\\Create.cshtml",
+              "ViewState": "AgIAADIAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-28T11:32:32.314Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SanphamDto.cs",
+              "DocumentMoniker": "E:\\DoAn\\DACS2\\PetCare\\Models\\SanphamDto.cs",
+              "RelativeDocumentMoniker": "PetCare\\Models\\SanphamDto.cs",
+              "ToolTip": "E:\\DoAn\\DACS2\\PetCare\\Models\\SanphamDto.cs",
+              "RelativeToolTip": "PetCare\\Models\\SanphamDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T11:28:14.806Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

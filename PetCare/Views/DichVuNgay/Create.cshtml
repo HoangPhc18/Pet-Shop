@@ -1,0 +1,28 @@
+﻿@model DichVu_NgayDto
+@{
+    Layout = "Admin/_LayoutAdmin";
+}
+<div class="card">
+    <h2 class="card-header">Thêm Bảng Giá</h2>
+    <div class="card-body">
+        <form method="POST" enctype="multipart/form-data">
+            <div class="row mb-3">
+                <label class="col-sm-4 col-form-label">ID Dịch Vụ</label>
+                <div class="col-sm-8">
+                    <input class="form-control readonly" asp-for="id_dichvu" value="@ViewData["IDDV"]" />
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <label class="col-sm-4 col-form-label">Giá Thành</label>
+                <div class="col-sm-8">
+                    <input class="form-control" asp-for="gia_thanh" />
+                    <span asp-validation-for="gia_thanh" class="text-danger"></span>
+                </div>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Lưu</button>
+            <button type="button" href="javascript:history.go(-1)" class="btn btn-danger mx-2">Thoát</button>
+        </form>
+    </div>
+</div>

@@ -1,0 +1,11 @@
+Bắt đầu sử dụng web yêu cầu cần có SQL Server bản mới và tạo Database với tên PETSSDB.db
+
+Khi mở Visual Studio mới nhất hãy mở Package Manager Console và nhập
+Add-Migration IntialStart
+Update-Database
+
+và chạy chương trình
+
+thông tin đăng nhập Admin:
+email: Duongngocphu2003@gmail.com
+pass: 123

@@ -1,0 +1,79 @@
+﻿@model NhanVienDto
+@{
+    Layout = "Admin/_LayoutAdmin";
+}
+
+<div class="row">
+    <div class="col-md-8 mx-auto rounded border p-3">
+        <h2 class="text-center mb-5">Thêm Nhân Viên</h2>
+
+        <form method="POST">
+            <!-- Tên Nhân Viên -->
+            <div class="row mb-3">
+                <label class="col-sm-4 col-form-label">Tên Nhân Viên</label>
+                <div class="col-sm-8">
+                    <input class="form-control" asp-for="ten_nv" />
+                    <span asp-validation-for="ten_nv" class="text-danger"></span>
+                </div>
+            </div>
+
+            <!-- Số Điện Thoại -->
+            <div class="row mb-3">
+                <label class="col-sm-4 col-form-label">Số Điện Thoại</label>
+                <div class="col-sm-8">
+                    <input class="form-control" asp-for="sdt_nv" />
+                    <span asp-validation-for="sdt_nv" class="text-danger"></span>
+                </div>
+            </div>
+
+            <!-- Email -->
+            <div class="row mb-3">
+                <label class="col-sm-4 col-form-label">Email</label>
+                <div class="col-sm-8">
+                    <input class="form-control" asp-for="email_nv" />
+                    <span asp-validation-for="email_nv" class="text-danger"></span>
+                </div>
+            </div>
+
+            <!-- Chức Vụ -->
+            <div class="row mb-3">
+                <label class="col-sm-4 col-form-label">Chức Vụ</label>
+                <div class="col-sm-8">
+                    <input class="form-control" asp-for="chucvu_nv" />
+                    <span asp-validation-for="chucvu_nv" class="text-danger"></span>
+                </div>
+            </div>
+
+            <!-- Mật Khẩu -->
+            <div class="row mb-3">
+                <label class="col-sm-4 col-form-label">Mật Khẩu</label>
+                <div class="col-sm-8">
+                    <input type="password" class="form-control" asp-for="matkhau_nv" />
+                    <span asp-validation-for="matkhau_nv" class="text-danger"></span>
+                </div>
+            </div>
+
+            <!-- Xác Nhận Mật Khẩu -->
+            <div class="row mb-3">
+                <label class="col-sm-4 col-form-label">Xác Nhận Mật Khẩu</label>
+                <div class="col-sm-8">
+                    <input type="password" class="form-control" id="confirmPassword" name="ConfirmPassword" />
+                    <span class="text-danger" asp-validation-for="ConfirmPassword"></span>
+                </div>
+            </div>
+
+            <!-- Submit Buttons -->
+            <div class="row">
+                <div class="offset-sm-4 col-sm-4 d-grid">
+                    <button type="submit" class="btn btn-primary">Xác nhận</button>
+                </div>
+
+                <div class="col-sm-4 d-grid">
+                    <a class="btn btn-outline-danger" asp-controller="NhanVien" asp-action="Index" role="button">
+                        Thoát
+                    </a>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>

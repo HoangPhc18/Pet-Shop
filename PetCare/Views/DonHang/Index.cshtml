@@ -1,0 +1,75 @@
+﻿@model List<VMChitietdh>
+@{
+    Layout = "Admin/_LayoutAdmin";
+}
+
+<h2 class="text-center mb-5">Quản Lý Đơn Hàng</h2>
+
+<form asp-action="Index" class="mb-3" method="get">
+    <div class="form-group row g-3">
+        <div class="col-md-4 row">
+            <label class="form-label col mt-2" for="ma_dh">Mã Đơn Hàng </label>
+            <input type="text" class="form-control col" name="ma_dh" placeholder="Mã Đơn Hàng" value="" />
+        </div>
+        <div class="col-md-4 row">
+            <label class="form-label col mt-2" for="ngaydat">Ngày Tạo Đơn</label>
+            <input type="date" class="form-control col" name="ngaydat" placeholder="Ngày Đặt Hàng" value="" />
+        </div>
+        <div class="col-md-4 row">
+            <label class="form-label col mt-2" for="sortOption">Trạng Thái </label>
+            <select id="sortOption" name="sortOption" class="form-control col">
+                @foreach (var item in ViewBag.SortOptions as List<SelectListItem>)
+                {
+                    <option value="@item.Value">@item.Text</option>
+                }
+            </select>
+        </div>
+    </div>
+    <button type="submit" class="btn btn-primary col-auto rounded mt-3">Tìm Kiếm</button>
+</form>
+
+<!-- Công việc thêm: Thêm điều kiện kiểm tra dữ liệu nếu như trống thì in dòng "Không có dữ liệu" -->
+<input type="hidden" id="DHid" />
+<table class="table table-bordered table-striped table-hover">
+    <thead class="table-dark text-center">
+        <tr>
+            <th>ID</th>
+            <th>ID Khách Hàng</th>
+            <th>Địa chỉ giao hàng</th>
+            <th>Tổng Tiền</th>
+            <th>Ngày Tạo</th>
+            <th>Trạng Thái</th>
+            <th>Ghi Chú</th>
+            <th>Mã đơn hàng</th>
+            <th>Chức năng</th>
+        </tr>
+    </thead>
+    <tbody>
+        @{
+            int stt = 1;
+        }
+        @foreach (var donhang in Model)
+        {
+            <tr>
+                <input type="hidden" value="@donhang.id_dh" name="id_dh" />
+                <td class="text-center">@stt</td>
+                <td class="text-center">@donhang.ten_kh</td>
+                <td>@donhang.diachi_giao</td>
+                <td class="text-end">@donhang.tong_tien.ToString("N0") đ</td>
+                <td class="text-center">@donhang.ngay_tao.ToString("dd/MM/yyyy")</td>
+                <td class="text-center">@donhang.trang_thai</td>
+                <td>@donhang.ghi_chu</td>
+                <td class="text-center"><a class="form-text" asp-action="Details" asp-route-id="@donhang.id_dh">@donhang.ma_dh</a></td>
+                <td class="text-center" style="white-space: nowrap">
+                    <!-- Button trigger modal -->
+                    <a class="btn btn-primary btn-sm" asp-controller="DonHang" asp-action="UpdateStatus" asp-route-id="@donhang.id_dh">
+                        Cập nhật đơn hàng
+                    </a>
+                    <a class="btn btn-danger btn-sm" asp-controller="DonHang" asp-action="Delete" asp-route-id="@donhang.id_dh" onclick="return confirm('Chắc chắn xóa sản phẩm này?')">Xóa</a>
+                </td>
+            </tr>
+            stt++;
+        }
+    </tbody>
+</table>
+
