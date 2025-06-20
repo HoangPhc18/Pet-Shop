@@ -50,7 +50,7 @@ Sau khi cấu hình cơ sở dữ liệu xong, bạn có thể đăng nhập và
 
 Khi mọi thứ đã được thiết lập, bạn có thể chạy chương trình:
 
-1. Xây dựng dự án trong **Visual Studio 2020**.
+1. Xây dựng dự án trong **Visual Studio**.
 2. Chạy ứng dụng và kiểm tra các tính năng.
 
 ---
