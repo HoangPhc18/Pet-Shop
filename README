@@ -1,11 +1,69 @@
-Bắt đầu sử dụng web yêu cầu cần có SQL Server bản mới và tạo Database với tên PETSSDB.db
+Để giúp bạn chỉnh sửa lại file README một cách chuyên nghiệp hơn, tôi sẽ gợi ý một cách sắp xếp và cách viết có tính chuyên nghiệp, dễ đọc. Cùng xem qua nhé!
 
-Khi mở Visual Studio mới nhất hãy mở Package Manager Console và nhập
-Add-Migration IntialStart
+---
+
+# **Hướng dẫn Cài đặt và Sử dụng Ứng dụng**
+
+Ứng dụng này yêu cầu một số bước chuẩn bị trước khi có thể chạy thành công trên hệ thống của bạn. Vui lòng làm theo các hướng dẫn dưới đây.
+
+---
+
+## **1. Yêu cầu hệ thống**
+
+* **SQL Server**: Phiên bản mới nhất.
+* **Visual Studio**: Phiên bản mới nhất có hỗ trợ .NET.
+
+---
+
+## **2. Cài đặt Database**
+
+Để bắt đầu, bạn cần tạo một cơ sở dữ liệu (Database) với tên `PETSSDB.db`. Các bước thực hiện như sau:
+
+1. Mở **SQL Server Management Studio** hoặc công cụ tương tự.
+2. Tạo một cơ sở dữ liệu mới với tên là `PETSSDB.db`.
+
+---
+
+## **3. Cập nhật Cấu trúc Cơ sở Dữ liệu**
+
+Sau khi đã tạo cơ sở dữ liệu, bạn cần thực hiện các bước sau trong **Visual Studio**:
+
+1. Mở **Visual Studio** và mở dự án của bạn.
+2. Mở **Package Manager Console**.
+3. Chạy các lệnh sau:
+
+```bash
+Add-Migration InitialStart
 Update-Database
+```
 
-và chạy chương trình
+Lệnh này sẽ tạo ra các bảng và cấu trúc cần thiết trong cơ sở dữ liệu của bạn.
 
-thông tin đăng nhập Admin:
-email: Duongngocphu2003@gmail.com
-pass: 123
+---
+
+## **4. Thông tin Đăng nhập Admin**
+
+Sau khi cấu hình cơ sở dữ liệu xong, bạn có thể đăng nhập vào ứng dụng bằng tài khoản Admin với thông tin sau:
+
+* **Email**: [Duongngocphu2003@gmail.com](mailto:Duongngocphu2003@gmail.com)
+* **Password**: 123
+
+---
+
+## **5. Chạy Ứng dụng**
+
+Khi mọi thứ đã được thiết lập, bạn có thể chạy chương trình:
+
+1. Xây dựng dự án trong Visual Studio.
+2. Chạy ứng dụng và kiểm tra các tính năng.
+
+---
+
+## **Lưu ý**
+
+* Đảm bảo rằng bạn có quyền truy cập vào SQL Server và có thể tạo cơ sở dữ liệu.
+* Nếu gặp vấn đề khi chạy lệnh `Update-Database`, hãy kiểm tra lại cấu hình kết nối trong file `appsettings.json`.
+
+---
+
+
